@@ -5,7 +5,7 @@ class User {
 }
 
 @Component({
-  selector: 'app-users',
+  selector: 'file-handler-users',
   templateUrl: './users.component.html',
   styleUrls: ['./users.component.css']
 })
