@@ -1,0 +1,15 @@
+<p>
+  users works!
+</p>
+<md-card *ngFor="let user of users">
+  <md-card-content>{{user.name}}</md-card-content>
+  <md-card-subtitle>{{user.work}}</md-card-subtitle>
+</md-card>
+<md-card>
+  <input md-input #username>
+  <input md-input #work>
+
+  <button md-button (click)="add(username.value, work.value)">Add</button>
+</md-card>
+
+
